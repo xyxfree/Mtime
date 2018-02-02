@@ -1,0 +1,155 @@
+a{
+  text-decoration: none;
+  color: #333;
+}
+.filmticket{
+  width: 1000px;
+  height: 864px;
+  overflow: hidden;
+  margin: 40px auto 0;
+}
+.ticketselect a:hover{
+  background-color: red;
+}
+.title{
+  border-bottom: 1px solid #a9a9a9;
+}
+.title h2{
+  width: 200px;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 48px;
+  border-left: 10px solid #ff6d00;
+  padding: 0 15px;
+  float: left;
+}
+.favregion a:hover{
+  color: #08c;
+  cursor: pointer;
+}
+.filmticket li{
+  border-bottom: 1px solid #e8e8e8;
+  padding: 30px 0;
+  min-height: 90px;
+  position: relative;
+  zoom: 1;
+}
+.filmname{
+  width: 102px;
+  height: 63px;
+  border: 1px solid #a5a5a5;
+  position: absolute;
+  left: 0;
+  top: 30px;
+  z-index: 2;
+}
+.movieinfobox{
+  border: 0;
+  padding: 0 0 0 125px;
+  position: relative;
+  zoom: 1;
+}
+.favregion{
+  padding-top: 0;
+  margin-top: -6px;
+  position: relative;
+  zoom: 1;
+  font-size: 24px;
+  padding: 5px 0 0 0;
+  min-height: 35px;
+  line-height: 35px;
+}
+.intotxt{
+  margin: 10px 0 0;
+}
+.intotxt p{
+  font-size: 14px;
+  line-height: 24px;
+}
+.moretool{
+  text-align: left;
+  margin: 10px 0 0 0;
+  position: relative;
+  width: 560px;
+  left: 0;
+}
+.ico{
+  width: 48px;
+  height: 24px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  line-height: 24px;
+  color:#fff;
+  background-color: green;
+  margin-right: 5px;
+}
+.moretool .ico:nth-of-type(5){
+  width: 108px;
+}
+.moretool .ico:nth-of-type(6){
+  width: 78px;
+}
+.ticketselect{
+  width: 126px;
+  position: absolute;
+  right: -30px;
+  top: 15px;
+  z-index: 2;
+}
+.ticketselect p{
+  text-align: center;
+  color: #f77603;
+  font-size: 30px;
+  line-height: 24px;
+  height: 36px;
+}
+.ticketselect p span:nth-of-type(1){
+  font-size: 12px;
+  padding: 0 3px;
+}
+.ticketselect p span:nth-of-type(2){
+  font-size: 12px;
+  padding: 0 3px;
+}
+.ticketselect a{
+  background: #0081bc;
+  width: 94px;
+  height: 25px;
+  display: inline-block;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  zoom: 1;
+}
+.filter,.long{
+  width: 1000px;
+  margin: 10px auto 10px;
+}
+.short{
+  width: 685px;
+  height: 82px;
+  position: relative;
+}
+.more{
+  color: #333;
+  position: absolute;
+  bottom:30px;
+  left: calc(50% - 36px);
+  cursor: pointer;
+}
+.more i{
+  background: url(//static1.mtime.cn/theater/20170719092733/images/allicon24.png) no-repeat -267px -336px;
+  width: 31px;
+  height: 31px;
+  position: relative;
+  zoom: 1;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
